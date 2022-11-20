@@ -1,0 +1,196 @@
+html {
+    font-size: 100%
+}
+
+body {
+    margin: 0
+}
+
+#wrapper {
+    width: 1200px;
+    margin: auto
+}
+
+#menue, #leftmenue {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+#menue li {
+    float: left;
+    border-right: 1px dotted #333
+}
+
+#menue li a, #leftmenue li a {
+    padding: 10px;
+    display: block;
+    background-color: #dedede;
+    color: #333;
+    text-decoration: none
+}
+
+#menue li a:hover, #leftmenue li a:hover {
+    background-color: #b9b9b9;
+    color: #fff
+}
+
+#left {
+    float: left;
+    width: 250px
+}
+
+#leftmenue li {
+    border-bottom: 1px dotted #333
+}
+
+#menue li:last-child, #leftmenue li:last-child {
+    border: none
+}
+
+#right {
+    float: right;
+    width: 940px;
+}
+
+p {
+    color: black;
+    font-size: .9rem;
+    font-weight: 700;
+    font-style: normal;
+    text-align: justify;
+    float: left;
+    width: 300px;
+}
+
+p.red {
+    color: red;
+    width: auto;
+}
+
+p.blue {
+    color: blue;
+    width:auto;
+}
+
+.center {
+    text-align: center
+}
+
+.bold {
+    font-weight: 700
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    clear: both;
+    position: relative
+}
+
+#copyright {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: .8em;
+    width: 100%;
+    left: 0;
+    bottom: 10px
+}
+
+#impressum {
+    list-style: none;
+    margin: 0;
+    padding: 15px 0 0 15px
+}
+
+#impressum li a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none
+}
+
+a.active {
+    background-color: red !important;
+    color: #fff !important
+}
+
+#impressum li a:hover {
+    color: aqua
+}
+
+#produkte {
+    list-style: none;
+}
+
+#produkte li {
+    background-image: url("../icons/openenvelope-icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 1.5em;
+    margin: 5px 0 5px 0;
+}
+#zahlen {
+    list-style-type: lower-roman;
+}
+#zahlen li{
+    margin-bottom: 8px;
+
+}
+table.products {
+    width:100%;
+    border-collapse: collapse;
+}
+table.products th{
+    text-align: left;
+}
+table.products tr.row_2 {
+    background-color: aqua;
+}
+a.btn {
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    width: 200px;
+    margin-top: 50px;
+}
+.btn-orange {
+    background-color: orange;
+}
+.btn-magenta {
+    background-color: magenta;
+    margin-bottom: 20px;
+}
+/*
+@media(max-width:750px) {
+    .btn-orange {
+        background-color: #0ae181;
+    }
+}
+ */
+@media(min-width:750px) AND (max-width:1100px) {
+    .btn-orange {
+        background-color: #0ae181;
+    }
+}
+.form-row {
+    padding:5px;
+}
+.form-label {
+    float: left;
+    width:100px;
+}
+input.button {
+    background-color: deepskyblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+}
+

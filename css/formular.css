@@ -1,0 +1,38 @@
+#formular {
+    margin: auto;
+    width: 800px;
+    padding: 40px;
+    background-color: mediumslateblue;
+}
+#left {
+    float: left;
+    width: 49%;
+}
+#right {
+    float: right;
+    width: 49%;
+}
+.form-row {
+    margin-bottom: 10px;
+}
+.clear {
+    clear: both;
+}
+.dateholder {
+    width: 100%;
+    background-color: red;
+}
+.datel {
+    width: 49%;
+    float: left;
+}
+.dater {
+    width: 49%;
+    float: left;
+}
+.message {
+    margin-top: 20px;
+}
+input.button {
+    float: bottom;
+}

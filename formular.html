@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Formular</title>
+    <link rel="stylesheet" href="css/formular.css" type="text/css"/>
+
+</head>
+<body>
+<div id="formular">
+    <form action="auswertung.php" method="post" class="adminform">
+        <div id="left">
+            <div class="form-row">
+                <div class="form-input">
+                    <select name="anrede" required>
+                        <option value="">Anrede</option>
+                        <option value="Frau">Frau</option>
+                        <option value="Herr">Herr</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-input">
+                    <input type="text" name="vorname" placeholder="Vorname"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-input">
+                    <input type="text" name="nachname" placeholder="Nachname"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-input">
+                    <input type="text" name="email" placeholder="E-Mail"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-input">
+                    <input type="checkbox"/>
+                    <input type="text" name="Vorsteuerabzugesberechtigt" placeholder="Vorsteuerabzugesberechtigt"/>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-label">
+                </div>
+                <div class="form-input">
+                    <input type="radio" name="mwst" value="7%"/>7%
+                    <input type="radio" name="mwst" value="19%"/>19%
+                </div>
+            </div>
+        </div>
+
+        <div id="right">
+
+            <div class="dateholder">
+                <div class="datel">
+                    <div class="form-label">Beginn</div>
+                    <input type="date" class="date"/>
+                </div>
+                <div class="dater">
+                    <div class="form-label">Ende</div>
+                    <input type="date" class="date"/>
+                </div>
+
+            </div>
+            <div class="form-row">
+                <div class="form-label">
+                </div>
+                <div class="form-input">
+                    <textarea name="ihre mitteilung" placeholder="Ihre Mitteilung" cols="40" rows="10" class="message"></textarea>
+                </div>
+            </div>
+        </div>
+        <input type="submit" name="absenden" value="Absenden" class="button"/>
+        <div class="clear"></div>
+    </form>
+</div>
+
+</body>
+</html>
